@@ -1,6 +1,6 @@
 /******* Bootstrap Theming ********/
 
-$primary: #0b66ce;
+$primary: #f7f7f7;
 $secondary: #6c757d;
 $light: #ffffff;
 $dark: #343a40;
@@ -305,3 +305,14 @@ h6,
     padding: 0;
     list-style-type: none;
 }
+
+.portfolio-item:hover{
+    animation-name: example;
+    animation-duration: 1s;
+    opacity: 0.5;
+}
+
+@keyframes example {
+    0%   {opacity: 1;}
+    100% {opacity: 0.5;}
+  }
