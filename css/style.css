@@ -9374,7 +9374,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f7f7f7 !important;
+  color: #343A40 !important;
 }
 
 a.text-primary:hover,
@@ -9874,6 +9874,9 @@ h6,
   border: 3px solid #6c757d;
 }
 
-#one {
-  background: url("../img/percobaan.jpg") center center/cover;
+.row-gap {
+  margin-bottom: 10px;
+}
+.row-gap .cols {
+  margin-bottom: 10px;
 }
